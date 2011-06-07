@@ -8,7 +8,7 @@ The time entries are fetched from the Redmine server.
 
 You need to provide configuration to tell the script which Redmine application should be used,
 how should it authenticate itself.
-Just copy the `config.yml.dest` to `config.yml` and update it.
+Just copy the `config.yml.dist` to `config.yml` and update it.
 
 ## Dependencies (gems): ##
 
@@ -27,3 +27,5 @@ with Redmine user ID 22 will be listed.
 ## TODO: ##
 
 * use API key instead of password
+* group by issue #
+* test on other rubies (developed using ruby-1.9.2-p180)
