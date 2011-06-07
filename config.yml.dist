@@ -2,7 +2,3 @@ redmine:
   site: http://demo.redmine.org
   user: bob
   password: somepassword
-
-gdocs:
-  user: bob@gmail.com
-  password: somepassword

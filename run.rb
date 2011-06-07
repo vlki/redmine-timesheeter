@@ -1,8 +1,8 @@
 #!/usr/bin/env ruby
 
 #
-# Timesheeting tool which transfer data from Redmine
-# (using its RESTful API) to Google Docs Spreadsheet.
+# Timesheeting tool which shows time entries from Redmine
+# (using its RESTful API).
 #
 # Author: Jan Vlcek <vlki@vlki.cz>
 #
