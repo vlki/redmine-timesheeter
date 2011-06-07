@@ -10,6 +10,10 @@ You need to provide configuration to tell the script which Redmine application s
 how should it authenticate itself.
 Just copy the `config.yml.dest` to `config.yml` and update it.
 
+## Dependencies (gems): ##
+
+* redmine_client
+
 ## Usage: ##
 
 `./run.rb user_id from_date to_date`
