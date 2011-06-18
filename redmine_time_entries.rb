@@ -1,7 +1,6 @@
 #
-#
-#
-#
+# Wrapper of the REST redmine_client focused on fetching
+# of time entries.
 #
 
 require 'redmine_client'
