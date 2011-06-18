@@ -33,7 +33,7 @@ module RedmineTimeEntries
 
         entries.each do |entry|
           if entry.spent_on >= from and entry.spent_on <= to and entry.user_id == user_id
-            result.push(entry)
+            result.unshift(entry)
           end
         end
 
